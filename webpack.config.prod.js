@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
+
 module.exports = {
   mode: 'production',
   entry: './index.html', // Your entry file
